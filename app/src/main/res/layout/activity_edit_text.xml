@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzycheese.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head_View"
+            style="@style/MainText.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Image"
+            android:layout_below="@id/head_View"
+            android:src="@drawable/internationale_raumstation" />
+
+        <TextView
+            android:id="@+id/question_tv1"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:background="@drawable/rectangle"
+            android:text="@string/editText1"/>
+
+        <EditText
+            android:id="@+id/edit_text1"
+            style="@style/Basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_tv1"
+            android:inputType="textCapCharacters"
+            android:hint="@string/editHint1"/>
+
+        <TextView
+            android:id="@+id/question_tv2"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text1"
+            android:background="@drawable/rectangle"
+            android:text="@string/editText2"/>
+
+        <EditText
+            android:id="@+id/edit_text2"
+            style="@style/Basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_tv2"
+            android:hint="@string/editHint2"/>
+
+        <TextView
+            android:id="@+id/question_tv3"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_text2"
+            android:background="@drawable/rectangle"
+            android:text="@string/yourName"/>
+
+        <EditText
+            android:id="@+id/edit_text3"
+            style="@style/Basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_tv3"
+            android:hint="@string/yourNameHint"/>
+
+        <Button
+            android:id="@+id/next_question"
+            style="@style/Basic.TopDown.Button"
+            android:layout_below="@id/edit_text3"
+            android:text="@string/last_button"
+            android:onClick="onNextQuestionButton"/>
+    </RelativeLayout>
+</ScrollView>
+

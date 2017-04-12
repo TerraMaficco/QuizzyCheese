@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="image_array">
+        <item>@drawable/finale_image</item>
+        <item>@drawable/antenne</item>
+        <item>@drawable/erde_wasser</item>
+        <item>@drawable/internationale_raumstation</item>
+        <item>@drawable/northern_lights</item>
+        <item>@drawable/moon</item>
+        <item>@drawable/neil_armstrong</item>
+        <item>@drawable/sonne</item>
+        <item>@drawable/solar_eclipse</item>
+        <item>@drawable/stenernensystem</item>
+        <item>@drawable/katzennebel</item>
+        <item>@drawable/space_fantasy</item>
+        <item>@drawable/sterncluster</item>
+        <item>@drawable/nearest_sun</item>
+        <item>@drawable/saturn</item>
+        <item>@drawable/stenernensystem</item>
+        <item>@drawable/internationale_raumstation</item>
+        <item>@drawable/finale_image</item>
+    </integer-array>
+
+</resources>

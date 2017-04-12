@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/radiobuttontheme_btn_check_holo_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/radiobuttontheme_btn_radio_holo_dark</item>
+    </style>
+
+    <style name="MainText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="MainText.Title">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="MainText.Question">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MainText.Static">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Basic">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="Basic.TopDown">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="Basic.Top">
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="Basic.Down">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="Basic.TopDown.Button">
+        <item name="android:background">@drawable/rectangle_button</item>
+    </style>
+
+    <style name="QuizButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:background">@drawable/rectangle_button</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+</resources>

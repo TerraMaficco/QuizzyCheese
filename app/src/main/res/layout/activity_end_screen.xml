@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzycheese.EndScreen">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head_View"
+            style="@style/MainText.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Image"
+            android:layout_below="@id/head_View"
+            android:src="@drawable/finale_image" />
+
+        <TextView
+            android:id="@+id/question_tv"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:background="@drawable/rectangle"
+            android:text="@string/finish" />
+
+        <LinearLayout
+            android:id="@+id/first_tv_row1"
+            style="@style/Basic.Top"
+            android:layout_below="@id/question_tv"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/yourPoints1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/score1"
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/first_tv_row2"
+            style="@style/Basic"
+            android:layout_below="@id/first_tv_row1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/yourPoints2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/score2"
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/first_tv_row3"
+            style="@style/Basic"
+            android:layout_below="@id/first_tv_row2"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/yourPoints3" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/score3"
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/first_tv_row4"
+            style="@style/Basic"
+            android:layout_below="@id/first_tv_row3"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/yourPoints4" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/score4"
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/first_tv_row5"
+            style="@style/Basic.Down"
+            android:layout_below="@id/first_tv_row4"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/yourPoints5" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/score5"
+                style="@style/MainText.Static"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/conclusion"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle"
+            android:layout_below="@id/first_tv_row5"/>
+
+        <Button
+            android:id="@+id/return_button"
+            style="@style/Basic.TopDown.Button"
+            android:text="@string/returnButton"
+            android:layout_below="@id/conclusion"
+            android:onClick="returnButton"/>
+
+        <LinearLayout
+            android:id="@+id/second_tv_row"
+            style="@style/Basic.TopDown"
+            android:layout_below="@id/return_button"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/thankYou"
+                style="@style/MainText.Static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/thankYou" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/thanks"
+                style="@style/MainText.Static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/thanks"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

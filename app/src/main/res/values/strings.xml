@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Quizzy Cheesy</string>
+    <string name="answerA">Answer A</string>
+    <string name="answerB">Answer B</string>
+    <string name="answerC">Answer C</string>
+    <string name="answerD">Answer D</string>
+    <string name="welcome">Welcome to this simple but not easy Quizzy Cheesy with astronomical Theme. Start by tapping on one of the empty Buttons!</string>
+    <string name="finish">Thank you for doing all the Questions. Below you can find your points and how you perform on this little Quizzy Cheesy.</string>
+    <string name="yourPoints1">Button Score:</string>
+    <string name="yourPoints2">Radio Button Score:</string>
+    <string name="yourPoints3">Checkbox Button Score:</string>
+    <string name="yourPoints4">EditText Button Score:</string>
+    <string name="yourPoints5">Yout Total Score:</string>
+    <string name="returnButton">Want another Try?</string>
+    <string name="thankYou">Thank you for Playing!\nAll Images are from Pixabay.\nGreat Community!\nAll Questions are Effective by 04.2017</string>
+    <string name="thanks">Thanks to all Helpers, \nMods, Mates and \neveryone giving Feedback.\n</string>
+    <string name="next_button">Next Question</string>
+    <string name="last_button">Finish Quiz</string>
+    <string name="radioButton1">Default</string>
+    <string name="radioButton2">Default</string>
+    <string name="radioButton3">Default</string>
+    <string name="radioButton4">Default</string>
+    <string name="checkboxButton1">Default</string>
+    <string name="checkboxButton2">Default</string>
+    <string name="checkboxButton3">Default</string>
+    <string name="checkboxButton4">Default</string>
+    <string name="editHint1">Answer Question 1</string>
+    <string name="editHint2">Answer Question 2</string>
+    <string name="editText1">Please, write out ISS in full. (don\'t forget to scroll down)</string>
+    <string name="editText2">What is the main color of Mars? (all lower case)</string>
+    <string name="yourName">Please, tell me your name.</string>
+    <string name="yourNameHint">Your Name</string>
+    <string name="right">Right answer!</string>
+    <string name="right2">Both answers right!</string>
+    <string name="right3">One answer right!</string>
+    <string name="wrong">Sorry, this answer was wrong.</string>
+    <string name="noAnswer">No answer chosen. Please try again!</string>
+    <string name="noAnswer2">Only one answer chosen. Please chose another!</string>
+    <string name="noAnswer3">You did not fill all fields.</string>
+
+
+    <string-array name="question">
+        <item>EMPTY</item>
+        <item>What are the four categories, Astronomical observatories are usually divided upon? Space based, airborne, ground based and . . .</item>
+        <item>About 71 percent of the Earth\'s surface is water-covered, and the oceans hold about 96.5 percent of all Earth\'s water, but take all this water (from earth and air and everywhere) and put it into a bubble. How much diameter would this Bubble have?</item>
+        <item>Concerning Sport and Space, which court or field comes closest to the dimensions of the ISS?</item>
+        <item>Everyone knows those astonishing color spectacles on the Northern Hemisphere, but what about the Southern Hemisphere. What country might give a sight on those rare phenomenon\’s?</item>
+        <item>How many spacecraft’s have been launched to explore the moon?</item>
+        <item>And, how many missions to the moon have been considered successful (including unmanned, orbital and impact mission)?</item>
+        <item>The temperature on the surface of the sun is around 5778 kelvins. What do you guess? How hot is the corona of the sun (the plasma layers above the surface)?</item>
+        <item>What is the moment in the above image usually called?</item>
+        <item>How many Planets inhabit our solar system?</item>
+        <item>What Pet gave this nebula its name?</item>
+        <item>How many Laws of Robotics have been written by Isaac Asimov (including later Modification)?</item>
+        <item>This is more a guess-question: Concerning the vast number of stars existing in outer space. How many star systems with intelligent life could exist, when only one in a billion stars bear intelligent life?</item>
+        <item>Which Planet is closest to the Sun?</item>
+        <item>How many moons orbit around Saturn?</item>
+        <item>Which Planets are closest to Earth?</item>
+        <item>USA and Russia sent the most Astronauts to the ISS, but which two countries come after them?</item>
+        <item>EMPTY</item>
+    </string-array>
+
+    <string-array name="answerA">
+        <item>EMPTY</item>
+        <item>underground based</item>
+        <item>approx. Mars</item>
+        <item>Football Field</item>
+        <item>Brazil</item>
+        <item>approx. 15</item>
+        <item>63</item>
+        <item>a few Kelvins</item>
+        <item>last light</item>
+        <item>10</item>
+        <item>Dog</item>
+        <item>Four Laws</item>
+        <item>not more than one</item>
+        <item>Neptune</item>
+        <item>62</item>
+        <item>Saturn</item>
+        <item>Canada</item>
+        <item>EMPTY</item>
+    </string-array>
+
+    <string-array name="answerB">
+        <item>EMPTY</item>
+        <item>sea based</item>
+        <item>approx. 40% Moon</item>
+        <item>Tennis Court</item>
+        <item>Botswana</item>
+        <item>more than 1000</item>
+        <item>99</item>
+        <item>like the surface</item>
+        <item>diamond ring</item>
+        <item>7</item>
+        <item>Lama</item>
+        <item>For Laws</item>
+        <item>more than a billion</item>
+        <item>Mercury</item>
+        <item>6</item>
+        <item>Mars</item>
+        <item>Germany</item>
+        <item>EMPTY</item>
+    </string-array>
+
+    <string-array name="answerC">
+        <item>EMPTY</item>
+        <item>home based</item>
+        <item>approx. 50% Moon</item>
+        <item>Bristol Motor Speedway</item>
+        <item>Australia</item>
+        <item>more than 300</item>
+        <item>more than 1000</item>
+        <item>several ten thousands of Kelvin</item>
+        <item>solar protuberance</item>
+        <item>8</item>
+        <item>Cat</item>
+        <item>Flour Laws</item>
+        <item>I don\’t know</item>
+        <item>Mars</item>
+        <item>632</item>
+        <item>Venus</item>
+        <item>Brazil</item>
+        <item>EMPTY</item>
+    </string-array>
+
+    <string-array name="answerD">
+        <item>EMPTY</item>
+        <item>google based</item>
+        <item>approx. 70% Moon</item>
+        <item>Adelaide Street Circuit</item>
+        <item>Bolivia</item>
+        <item>more than 100</item>
+        <item>5</item>
+        <item>up to a million kelvin</item>
+        <item>disco light</item>
+        <item>9</item>
+        <item>Guinea pig</item>
+        <item>Our Laws</item>
+        <item>I don\’t care</item>
+        <item>Saturn</item>
+        <item>311</item>
+        <item>Uranus</item>
+        <item>Japan</item>
+        <item>EMPTY</item>
+    </string-array>
+
+    <string-array name="solutions">
+        <item>EMPTY</item>
+        <item>A</item>
+        <item>B</item>
+        <item>A</item>
+        <item>C</item>
+        <item>D</item>
+        <item>A</item>
+        <item>D</item>
+        <item>B</item>
+        <item>C</item>
+        <item>C</item>
+        <item>A</item>
+        <item>B</item>
+        <item>B</item>
+        <item>A</item>
+        <item>B:C</item>
+        <item>A:D</item>
+        <item>EMPTY</item>
+    </string-array>
+</resources>

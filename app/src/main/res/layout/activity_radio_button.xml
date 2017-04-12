@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizzycheese.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head_View"
+            style="@style/MainText.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/Image"
+            android:layout_below="@id/head_View"
+            android:src="@drawable/finale_image" />
+
+        <TextView
+            android:id="@+id/question_tv"
+            style="@style/MainText.Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:background="@drawable/rectangle"
+            android:text="@string/welcome" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question_tv"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio_button_1"
+                style="@style/Basic"
+                android:text="@string/radioButton1"/>
+            <RadioButton
+                android:id="@+id/radio_button_2"
+                style="@style/Basic"
+                android:text="@string/radioButton2"/>
+            <RadioButton
+                android:id="@+id/radio_button_3"
+                style="@style/Basic"
+                android:text="@string/radioButton3"/>
+            <RadioButton
+                android:id="@+id/radio_button_4"
+                style="@style/Basic"
+                android:text="@string/radioButton4"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/next_question"
+            style="@style/Basic.TopDown.Button"
+            android:layout_below="@id/radio_group"
+            android:text="@string/next_button"
+            android:onClick="onNextQuestionButton"/>
+    </RelativeLayout>
+</ScrollView>
